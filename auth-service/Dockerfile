@@ -1,4 +1,4 @@
 FROM tomcat:9.0-jdk17
-COPY target/ROOT.war /usr/local/tomcat/webapps/
+COPY target/*.war /usr/local/tomcat/webapps/auth-service.war
 
-EXPOSE 8081
+
